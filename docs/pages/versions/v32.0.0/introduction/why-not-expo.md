@@ -14,5 +14,6 @@ If you are using the [bare workflow](../../introduction/managed-vs-bare/), the f
 - **If you know that you want to use a particular push notification service** (such as OneSignal) instead of Expo's [Push Notification service/API](../../guides/push-notifications/), you will need to use the bare workflow.
 - **The minimum supported OS versions are Android 5+ and iOS 10+**. If you need to support older versions, you will not be able to use the managed workflow.
 - We typically avoid adding native modules to the SDK if they are tied to externally controlled services - we can't add something to the SDK just because a few users need it for their app, we have to think of the broader userbase.
+ 
 
 Are we missing something here? Let us know [on Slack](http://slack.expo.io/) or on our [feature requests board](https://expo.canny.io/feature-requests).
